@@ -1,0 +1,18 @@
+{
+  "name": "single-line-string",
+  "version": "0.0.1",
+  "description": "Converts multiline ES6 template strings to a single line & removes extra whitespace.",
+  "main": "dist.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "author": "Chris Henrick",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "rollup": "^0.38.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "tape": "^4.6.3"
+  }
+}
