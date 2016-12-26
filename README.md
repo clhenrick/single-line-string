@@ -1,6 +1,7 @@
 # Single Line String
-Simple tag function that converts multiline ES6 template strings to a single line & removes extra whitespace.
-Requires a javascript environment that supports [es6 template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+Simple tag function that converts a multiline ES6 template literal to a single line
+string, removing extra whitespace. Requires a javascript environment that supports 
+[es6 template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 (eg: Node >= 4.7.0).
 
 ## Usage
