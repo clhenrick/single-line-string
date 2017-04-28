@@ -7,7 +7,24 @@
     "test": "node test/test.js",
     "build": "rollup -c"
   },
-  "author": "Chris Henrick",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clhenrick/single-line-string.git"
+  },
+  "bugs": {
+    "url": "https://github.com/clhenrick/single-line-string/issues"
+  },
+  "keywords": [
+    "tag function",
+    "es6",
+    "template literal",
+    "single line string"
+  ],
+  "engines": {
+    "node": ">=4.7.0"
+  },
+  "license": "MIT",
+  "author": "Chris Henrick <chrishenrick@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "babel-preset-es2015-rollup": "^3.0.0",
