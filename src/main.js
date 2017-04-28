@@ -1,4 +1,9 @@
-
+/**
+ * Removes whitespace and newlines from an ES6 template literal
+ * @param {strings} template literal
+ * @param {values} one or more data values such as a number, string, array, etc.
+ * @return {string}
+ */ 
 export default (strings, ...values) => {
   // Interweave the strings with the
   // substitution vars first.
